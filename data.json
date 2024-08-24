@@ -1,0 +1,345 @@
+{
+  "hoodies": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Frostbite Fleece",
+        "brandname": "Nike",
+        "description": "Stay comfortable and stylish with our Ocean Breeze Hoodie. Made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turning package.",
+        "price": 78,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie1.webp"
+      },
+      {
+        "id": 2,
+        "name": "Snowfall Sherpa",
+        "brandname": "Adidas",
+        "description": "Get in the summer mood with our Beach Day Hoodie. Made from premium cotton fabric, this hoodie offers exceptional comfort and breathability. Its vibrant design featuring palm trees and beach waves will transport you to a tropical paradise. Perfect for a day at the beach or casual outings.",
+        "price": 78,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie2.webp"
+      },
+      {
+        "id": 3,
+        "name": "Arctic Chill Hoodie",
+        "brandname": "Puma",
+        "description": "Capture the essence of a picturesque sunset with our Sunset Horizon Hoodie. Crafted from soft and lightweight fabric, this hoodie ensures a comfortable fit and a relaxed feel. Its captivating design featuring a horizon dotted with golden hues will add a touch of serenity to your summer wardrobe.",
+        "price": 78,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Winter Wonderland Wrap",
+        "brandname": "Under Armour",
+        "description": "Infuse your summer style with tropical vibes wearing our vibrant Tropical Vibes Hoodie. Its unique design showcases a colorful blend of exotic flowers and leaves, reflecting the essence of a tropical paradise. Made from high-quality fabric, this hoodie offers both comfort and eye-catching appeal.",
+        "price": 78,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie4.webp"
+      },
+      {
+        "id": 5,
+        "name": "Blizzard Breeze Hoodie",
+        "brandname": "Hanes",
+        "description": "Experience the perfect blend of versatility and comfort with our Versatile Comfort Hoodie. Its timeless design and classic fit make it a wardrobe staple for any summer occasion. Made from premium cotton fabric, this hoodie ensures a soft and cozy feel that lasts throughout the day.",
+        "price": 78,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie5.webp"
+      },
+      {
+        "id": 6,
+        "name": "Icy Peaks Pullover",
+        "brandname": "Reebok",
+        "description": "Ignite your imagination with our Cartoon Astronaut Hoodie. Featuring a vibrant and playful design of adorable cartoon astronauts, this hoodie is sure to bring a smile to your face. Made from high-quality fabric, it offers a comfortable fit and durability. Perfect for casual outings and space enthusiasts.",
+        "price": 95,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie6.webp"
+      },
+      {
+        "id": 7,
+        "name": "Frosty Flurry Fleece",
+        "brandname": "Vans",
+        "description": "Experience the ultimate comfort of our Summer Breeze Hoodie. Crafted from lightweight and breathable fabric, this hoodie offers a relaxed fit that keeps you cool during the summer months. Whether you're lounging at home or running errands, this hoodie provides both style and comfort.",
+        "price": 54,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie7.webp"
+      },
+      {
+        "id": 8,
+        "name": "Polar Puff Hoodie",
+        "brandname": "Calvin Klein",
+        "description": "Stay cool and relaxed in our Classic Comfort Hoodie. Made from premium cotton fabric, this hoodie offers a classic fit and exceptional comfort. Its timeless design makes it a versatile choice for various summer activities. Pair it with shorts or jeans for a laid-back and stylish look.",
+        "price": 65,
+        "availability": true,
+        "type": "Hoodie",
+        "image_url": "Images/newpic/pics web 2/hoddies/hoodie8.webp"
+      }
+    ]
+  },
+  "pants": {
+    "products": [
+      {
+        "id": 9,
+        "name": "Shadowstrike Slims",
+        "brandname": "Macy's",
+        "description": "Introducing our Fresh Arrival T-Shirt, a stylish new addition to your summer wardrobe. With its trendy design and comfortable fit, this t-shirt is perfect for making a fashion statement. Made from high-quality fabric, it offers both style and durability. Stay ahead of the fashion curve with this must-have summer essential.",
+        "price": 70,
+        "availability": true,
+        "type": "Pants",
+        "image_url": "Images/newpic/pics web 2/pants/pants1.webp"
+      },
+      {
+        "id": 10,
+        "name": "Emberweave Trousers",
+        "brandname": "Gap",
+        "description": "Make a bold entrance with our Sunrise Burst T-Shirt. Featuring a vibrant burst of colors reminiscent of a glorious sunrise, this t-shirt is sure to turn heads. Made from soft and breathable fabric, it offers a comfortable and relaxed fit. Step into the new day with style and confidence.",
+        "price": 70,
+        "availability": true,
+        "type": "Pants",
+        "image_url": "Images/newpic/pics web 2/pants/pants2.webp"
+      },
+      {
+        "id": 11,
+        "name": "Dawnfall Denims",
+        "brandname": "Zara",
+        "description": "Add a touch of modernity to your summer wardrobe with our Modern Edge T-Shirt. Its unique design and contemporary patterns make it a standout piece. Made from high-quality fabric, this t-shirt offers both style and comfort. Elevate your fashion game with this cutting-edge summer essential.",
+        "price": 70,
+        "availability": true,
+        "type": "Pants",
+        "image_url": "Images/newpic/pics web 2/pants/pants3.webp"
+      },
+      {
+        "id": 12,
+        "name": "Moonstone Leggings",
+        "brandname": "H&M",
+        "description": "Elevate your summer style with our Elevate Style T-Shirt. Featuring a sleek and sophisticated design, this t-shirt exudes class and elegance. Made from premium fabric, it offers a comfortable fit and exceptional durability. Perfect for both casual and semi-formal occasions, this t-shirt is a true fashion statement.",
+        "price": 70,
+        "availability": true,
+        "type": "Pants",
+        "image_url": "Images/newpic/pics web 2/pants/pants4.webp"
+      }
+    ]
+  },
+  "gloves": {
+    "products": [
+      {
+        "id": 13,
+        "name": "Snowflake Bliss Mittens",
+        "brandname": "Isotoner",
+        "description": "Complete your summer look with our Stylish Shades. These sunglasses feature a trendy design and offer both style and UV protection. Made from high-quality materials, they are durable and comfortable to wear. Elevate your accessory game with these must-have shades.",
+        "price": 70,
+        "availability": true,
+        "type": "gloves",
+        "image_url": "Images/newpic/pics web 2/gloves/gloves 1.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Frostbite Finesse Gloves",
+        "brandname": "UGG",
+        "description": "Make a fashion statement with our Fashionable Watch. This stylish timepiece features a modern design and precise movement. With its high-quality construction, it offers both functionality and elegance. Stay on time and on-trend with this fashionable accessory.",
+        "price": 70,
+        "availability": true,
+        "type": "gloves",
+        "image_url": "Images/newpic/pics web 2/gloves/gloves 2.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Arctic Aurora Hand Warmers",
+        "brandname": "Columbia",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "gloves",
+        "image_url": "Images/newpic/pics web 2/gloves/gloves 3.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Winter Whispers Knit Gloves",
+        "brandname": "The North Face",
+        "description": "Make a statement with our Statement Earrings. These eye-catching earrings feature a bold design and are perfect for adding a touch of glamour to any outfit. Made from high-quality materials, they are lightweight and comfortable to wear. Stand out from the crowd with these stunning accessories.",
+        "price": 70,
+        "availability": true,
+        "type": "gloves",
+        "image_url": "Images/newpic/pics web 2/gloves/gloves4.jpg"
+      }
+    ]
+  },
+  "womenjackets": {
+    "products": [
+      {
+        "id": 17,
+        "name": "Frostbloom Parka",
+        "brandname": "Isotoner",
+        "description": "Complete your summer look with our Stylish Shades. These sunglasses feature a trendy design and offer both style and UV protection. Made from high-quality materials, they are durable and comfortable to wear. Elevate your accessory game with these must-have shades.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p1 women.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Snowfall Serenade Jacket",
+        "brandname": "UGG",
+        "description": "Make a fashion statement with our Fashionable Watch. This stylish timepiece features a modern design and precise movement. With its high-quality construction, it offers both functionality and elegance. Stay on time and on-trend with this fashionable accessory.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p2 women.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Arctic Aurora Coat",
+        "brandname": "Columbia",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p3 women.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Blizzard Belle Puffer",
+        "brandname": "The North Face",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p4 women.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Icicle Mist Overcoat",
+        "brandname": "Marmot",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p5 women.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Wintermoon Fleece Jacket",
+        "brandname": "Marmot",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p6 women.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Polar Frost Bomber",
+        "brandname": "Outdoor Research",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p7 women.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Snowflake Symphony Jacket",
+        "brandname": "Arc'teryx",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "womenjaket",
+        "image_url": "Images/newpic/pics web 2/women jackets/p8 women.jpg"
+      }
+    ]
+  },
+  "menjackets": {
+    "products": [
+      {
+        "id":25,
+        "name": "Frostbite Forge Jacket",
+        "brandname": "Isotoner",
+        "description": "Complete your summer look with our Stylish Shades. These sunglasses feature a trendy design and offer both style and UV protection. Made from high-quality materials, they are durable and comfortable to wear. Elevate your accessory game with these must-have shades.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p1 men.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Snowfall Stratos Parka",
+        "brandname": "UGG",
+        "description": "Make a fashion statement with our Fashionable Watch. This stylish timepiece features a modern design and precise movement. With its high-quality construction, it offers both functionality and elegance. Stay on time and on-trend with this fashionable accessory.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p2 men.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Arctic Aurora Coat",
+        "brandname": "Columbia",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p3 men.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Blizzard Peak Expedition Coat",
+        "brandname": "Isotoner",
+        "description": "Complete your summer look with our Stylish Shades. These sunglasses feature a trendy design and offer both style and UV protection. Made from high-quality materials, they are durable and comfortable to wear. Elevate your accessory game with these must-have shades.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p4 men.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Icicle Frostfire Jacket",
+        "brandname": "UGG",
+        "description": "Make a fashion statement with our Fashionable Watch. This stylish timepiece features a modern design and precise movement. With its high-quality construction, it offers both functionality and elegance. Stay on time and on-trend with this fashionable accessory.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p5 men.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Winter Sentinel Insulated Coat",
+        "brandname": "Columbia",
+        "description": "Carry your essentials in style with our Chic Handbag. This fashionable accessory features a sleek design and spacious interior. Made from premium materials, it offers both durability and elegance. Elevate your outfit with this versatile and trendy handbag.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p6 men.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Polar Frostbreeze Parka",
+        "brandname": "Isotoner",
+        "description": "Complete your summer look with our Stylish Shades. These sunglasses feature a trendy design and offer both style and UV protection. Made from high-quality materials, they are durable and comfortable to wear. Elevate your accessory game with these must-have shades.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p7 men.jpg"
+      },
+      {
+        "id": 32,
+        "name": "Snowstorm Shadow Jacket",
+        "brandname": "UGG",
+        "description": "Make a fashion statement with our Fashionable Watch. This stylish timepiece features a modern design and precise movement. With its high-quality construction, it offers both functionality and elegance. Stay on time and on-trend with this fashionable accessory.",
+        "price": 70,
+        "availability": true,
+        "type": "menjaket",
+        "image_url": "Images/newpic/pics web 2/men jackets/p8 men.jpg"
+      }
+   
+
+
+    ]
+  }
+}

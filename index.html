@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassyFit</title>
+
+    <!--Google Fonts-->
+
+    <!--End-->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <button id="btn-top" title="Back to top"><i class="fas fa-chevron-down"></i></button>
+
+    <header>
+
+        <div class="header">
+            <div class="container">
+                <!--Logo animation-->
+                <div>
+                    <h1 class="Logo-header"> <span class="Logo">C</span><span class="Logo">l</span><span
+                            class="Logo">a</span><span class="Logo">s</span><span class="Logo">s</span><span
+                            class="Logo">y</span><span class="Logo">F</span><span class="Logo">i</span><span
+                            class="Logo">t</span>
+                    </h1>
+                </div>
+                <div class="links">
+                    <span class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <ul id="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Login.html">Login Or Register</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                        <a href="#" id="close"><i class="far fa-times"></i></a>
+                    </ul>
+                </div>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="hero">
+        <h4>Start Your Season</h4>
+        <h2 class="h2background">Unbeatable Discounts</h2>
+        <h1>On Trendy Clothing</h1>
+        <p style="color: rgb(190, 106, 106); font-size:20px;">Save more with our coupons & get up to 70% off!</p>
+        <a href="shop.html"><button>
+                <div class="default-btn">
+                    <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2"
+                        stroke="#FFF" height="20" width="20" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle r="3" cy="12" cx="12"></circle>
+                    </svg>
+                    <span>Quick View</span>
+                </div>
+                <div class="hover-btn">
+                    <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2"
+                        stroke="#ffd300" height="20" width="20" viewBox="0 0 24 24">
+                        <circle r="1" cy="21" cx="9"></circle>
+                        <circle r="1" cy="21" cx="20"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span>Shop Now</span>
+                </div>
+            </button></a>
+        <style>
+
+            /* shop button page */
+            button {
+                position: relative;
+                overflow: hidden;
+                outline: none;
+                cursor: pointer;
+                border-radius: 50px;
+                background-color: hsl(256, 12%, 75%);
+                border: solid 4px hsl(219, 46%, 61%);
+                font-family: inherit;
+            }
+
+            .default-btn,
+            .hover-btn {
+                background-color: hsl(219, 46%, 61%);
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                padding: 15px 20px;
+                border-radius: 50px;
+                font-size: 17px;
+                font-weight: 500;
+                text-transform: uppercase;
+                transition: all .3s ease;
+            }
+
+            .hover-btn {
+                position: absolute;
+                inset: 0;
+                background-color: rgb(90, 136, 173);
+                transform: translate(0%, 100%);
+            }
+
+            .default-btn span {
+                color: hsl(0, 0%, 100%);
+            }
+
+            .hover-btn span {
+                color: hsl(0, 0%, 97%)
+            }
+
+            button:hover .default-btn {
+                transform: translate(0%, -100%);
+            }
+
+            button:hover .hover-btn {
+                transform: translate(0%, 0%);
+            }
+        </style>
+    </section>
+
+    <h1 id="h1beforefeatures">Our Features</h1>
+
+    <section id="feature" class="section-p1">
+
+        <div class="fe-box">
+            <img src="Images/newpic/features/free shipping.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Images/newpic/features/order online.jpg" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Images/newpic/features/save money.jpg" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Images/newpic/features/Promotions.jpg" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Images/newpic/features/happy sell.jpg" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Images/newpic/features/24-7Support.jpg" alt="">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Men Arrivals </h2>
+        <p>Winter Collection! New Morden Designs</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Images/newpic/home men/p1 men.jpg" alt="">
+                <div class="des">
+                    <span>The North Face</span>
+                    <h5>Ocean Breeze Jaket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p2 men.jpg" alt="">
+                <div class="des">
+                    <span>The North Face</span>
+                    <h5>Frosty Peak Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$62.98</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p3 men.jpg" alt="">
+                <div class="des">
+                    <span>Patagonia</span>
+                    <h5>Snowfall Summit Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78.98</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p4 men.jpg" alt="">
+                <div class="des">
+                    <span>Canada Goose</span>
+                    <h5>Winter Storm Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70.80</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p5 men.jpg" alt="">
+                <div class="des">
+                    <span>Helly Hansen</span>
+                    <h5>Icy Summit Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$80.85</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p6 men.jpg" alt="">
+                <div class="des">
+                    <span>Mammut</span>
+                    <h5>Frozen Crest Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$66.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p7 men.jpg" alt="">
+                <div class="des">
+                    <span>Eddie Bauer</span>
+                    <h5>Snowy Horizon Jacke</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$54.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home men/p8 men.jpg" alt="">
+                <div class="des">
+                    <span>REI Co-op</span>
+                    <h5>Blizzard Crest Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$81.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h2>Feel Free To Stop By Our Store </h2>
+        <a href="contact.html"><button class="normal">See Our Location</button></a>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Women Arrivals</h2>
+        <p>Chic Winter Fashion Redefined!</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Images/newpic/home women/p1 women.jpg" alt="">
+                <div class="des">
+                    <span>Patagonia</span>
+                    <h5>Arctic Mist Coat</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$99.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p2 women.jpg" alt="">
+                <div class="des">
+                    <span>Canada Goose</span>
+                    <h5>Frostbite Glamour Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$84.84</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p3 women.jpg" alt="">
+                <div class="des">
+                    <span>Prana</span>
+                    <h5>Arctic Frost Glam Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$89.00</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p4 women.jpg" alt="">
+                <div class="des">
+                    <span>Icebreaker</span>
+                    <h5>Blizzard Dream Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <h4>$91.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p5 women.jpg" alt="">
+                <div class="des">
+                    <span>Spyder</span>
+                    <h5>Icy Cascade Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78.99</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p6 women.jpg" alt="">
+                <div class="des">
+                    <span>Obermeyer</span>
+                    <h5>Polar Frost Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <h4>$83.00</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p7 women.jpg" alt="">
+                <div class="des">
+                    <span>Fjällräve</span>
+                    <h5>Glacier Whisper Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78.00</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/newpic/home women/p8 women.jpg" alt="">
+                <div class="des">
+                    <span>Smartwool</span>
+                    <h5>Frozen Enchantress Coat</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$60.00</h4>
+                </div>
+                <a class="shopmain" href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Already Outside!</h4>
+            <h2>Visite Our Store</h2>
+            <span>Elevate your winter wardrobe with the most fashionable looks </span>
+            <a href="About.html"> <button class="white">Learn more</button></a>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Get Ready for</h4>
+            <h2>The Winter Season</h2>
+            <span>Discover the most stylish winter essentials</span>
+            <a href="shop.html"> <button class="white">Collection</button></a>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box ">
+
+            <h2>SEASONAL SALE</h2>
+            <h3>Winter Collection -50% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+
+            <h2>Stay Warm </h2>
+            <h3>In the coldest nights</h3>
+        </div>
+        <div class="banner-box banner-box3">
+
+            <h2>NEW Accessories COLLECTION</h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+
+        <h2>Special-Offer <span>50% Off</span> on this Product</h2>
+        <a href="Sproduct.html"><button class="normal">See The Offer</button></a>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong>Ghazir Street Jouniyeh Lebanon</p>
+            <p> <strong>Phone:</strong>+961 81 999 888</p>
+            <p> <strong>Hours:</strong>Monday to Saturday: 8:00am to 9:00pm</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f "></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pintereset-p "></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In </a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="Images/Pay/app.jpg" alt="">
+                <img src="Images/Pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="Images/Pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p> &copy; 2023 , ClassyFit@gmail.com </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
